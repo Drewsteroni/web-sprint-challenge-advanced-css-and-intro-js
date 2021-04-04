@@ -98,6 +98,7 @@ nav span{
     align-items: center;
     height:60vh;
     margin:5% 0;
+    
 }	
 .title-container div:hover {	
     opacity: 80%;	
@@ -122,6 +123,7 @@ button:hover{
 /*Artists Section Styles */
 .artists-container{
     display:flex;
+
     justify-content: space-around;
     width:80%;
     margin:0 auto;
@@ -133,4 +135,9 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+.section {
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 500px;
 }
