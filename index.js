@@ -254,7 +254,7 @@ function get20s(ar){
   }
   return newYears
 }
-console.log(get20s(artists))
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
@@ -289,15 +289,16 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(add){
-  add.push = {
+  let newArt = {
     "id": 20,
     "name": "Drew Griffith", 
     "years": "1993 - current day",
     "genre": "Web Design", 
     "nationality": "Human",
-    "bio": "Things and stuff. Words are difficult."
-  } 
-  return add;
+    "bio": "Highly interested in music and video games. Hopes to one day learn coding to incorporate the two together."
+  }
+  add.push (newArt);
+  console.log (artists);
 }
 console.log(addArtist(artists))
 
@@ -317,7 +318,6 @@ function lotsOfArt(cent){
   }
   return c
 }
-console.log (lotsOfArt(artists))
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
